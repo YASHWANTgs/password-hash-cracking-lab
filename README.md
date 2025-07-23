@@ -13,10 +13,8 @@ This Project shows the basic fundamentals of password cracking which uses the co
  **Tool**: John the Ripper
 - **Wordlist**: rockyou.txt
 - **Platform**: Kali Linux
-- **Commands**:
-  ```bash
-  john --format=sha512crypt testhash.txt --wordlist=mylist.txt
-  john hashes2.txt --wordlist=rockyou.txt
+- **Commands**:  john --format=sha512crypt testhash.txt --wordlist=mylist.txt
+   john hashes2.txt --wordlist=rockyou.txt
   john --format=raw-sha1 sha1.txt --wordlist=rockyou.txt
 
 # MITRE ATT&CK Mapping
